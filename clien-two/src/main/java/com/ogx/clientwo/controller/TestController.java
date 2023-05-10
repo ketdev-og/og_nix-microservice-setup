@@ -21,7 +21,6 @@ public class TestController {
 
     @GetMapping("/getTestOne")
     List<TestObj> getTestObjects(){
-
         List<TestObj> getOne = clientOne.getClientOneTest();
         return getOne;
 

@@ -16,9 +16,6 @@ public class TestController {
 
     @GetMapping("/test")
     List<TestObj> getTestObjects(){
-
-        System.err.println("ketem oo");
-
        return List.of(
                new TestObj("ketem", 1),
                new TestObj("chino", 2),
